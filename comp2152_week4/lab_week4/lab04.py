@@ -81,8 +81,13 @@ loot_options = ["Health Potion", "Poison Potion", "Secret Note", "Leather Boots"
 good_loot_options = ["Health Potion", "Leather Boots"]
 bad_loot_options = ["Poison Potion"]
 
-# Define the number of stars awarded to the Player
-num_stars = 0
+# Lab04 - Q1
+# Define the Monster Powers
+monster_powers = {
+    "Fire Magic": 2,
+    "Freezing Time": 4,
+    "Super Hearing": 6,
+}
 
 # Use a While Loop to get valid input for Hero and Monster's Combat Strength
 i = 0
