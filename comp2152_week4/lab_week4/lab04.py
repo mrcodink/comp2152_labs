@@ -169,6 +169,10 @@ loot  = loot_options.pop(lootRoll - 1)
 belt.append(loot)
 print("Your belt: ", belt)
 
+#Lab04 Q7 - Sort the belt
+print("You're neat, so organizr your belt alphabericallty:")
+belt.sort()
+print("your belt: ", belt)
 
 input("Analyze the roll (Press enter)")
 # Compare Player vs Monster's strength
