@@ -23,7 +23,6 @@ def use_loot(belt, healthpoints):
         print("    |    You used " + first_item + " but it's not helpful")
     return 
 
-
 # Lab 5: Question 3 
 def collect_loot(loot_options, belt):
     ascii_image3 = """
